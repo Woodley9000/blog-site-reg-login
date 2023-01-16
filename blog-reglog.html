@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog site A/N</title>
+    <link rel="stylesheet" href="reglog-style.css">
+    <script src="anim-reglog.js" defer></script>
+</head>
+<body>
+
+    <!--Контейнер-->
+    <article class="conteiner">
+
+        <!--Внутренний блок-->
+        <div class="block">
+
+            <section class="block__item block-item">
+                <h2 class="block-item__title">У вас уже есть аккаунт?</h2>
+                <button class="block-item__btn signin-btn">Войти</button>
+            </section>
+            <section class="block__item block-item">
+                <h2 class="block-item__title">У вас ещё нет аккаунта?</h2>
+                <button class="block-item__btn signup-btn">Создать</button>
+            </section>
+
+        </div>
+
+        <!--Блок формы-->
+        <div class="form-box">
+
+             <!--Форма регистрации-->
+
+             <form action="#" class="form form_signup">
+                <h3 class="form__title">Регистрация</h3>
+                <p><input type="text" class="form__input" placeholder="Ваше имя"></p>           <!--СЮДА ДОБАВИТЬ ПОСЛЕ placeholder  ID ЛИБО NAME ЛИБО ЕЩЁ ШОТА КРЧ, ЧТО БУДЕТ ВЗАИМОДЕЙСТВОВАТЬ С ДЖАНГО-->
+                <p><input type="text" class="form__input" placeholder="Ваша фамилия"></p>       <!--СЮДА ДОБАВИТЬ ПОСЛЕ placeholder  ID ЛИБО NAME ЛИБО ЕЩЁ ШОТА КРЧ, ЧТО БУДЕТ ВЗАИМОДЕЙСТВОВАТЬ С ДЖАНГО-->
+                <p><input type="email" class="form__input" placeholder="Почта"></p>             <!--СЮДА ДОБАВИТЬ ПОСЛЕ placeholder  ID ЛИБО NAME ЛИБО ЕЩЁ ШОТА КРЧ, ЧТО БУДЕТ ВЗАИМОДЕЙСТВОВАТЬ С ДЖАНГО-->
+                <p><input type="password" class="form__input" placeholder="Пароль"></p>         <!--СЮДА ДОБАВИТЬ ПОСЛЕ placeholder  ID ЛИБО NAME ЛИБО ЕЩЁ ШОТА КРЧ, ЧТО БУДЕТ ВЗАИМОДЕЙСТВОВАТЬ С ДЖАНГО-->
+                <p><button class="form__btn form__btn_signup">Зарегистрироваться</button></p>   <!--СЮДА ДОБАВИТЬ ПОСЛЕ class="form__btn form__btn_signup"  ID ЛИБО NAME ЛИБО ЕЩЁ ШОТА КРЧ, ЧТО БУДЕТ ВЗАИМОДЕЙСТВОВАТЬ С ДЖАНГО-->
+            </form>
+
+            <!--Форма входа-->
+
+            <form action="#" class="form form_signin">
+                <h3 class="form__title">Авторизация</h3>
+                <p><input type="email" class="form__input" placeholder="Введите почту"></p>      <!--СЮДА ДОБАВИТЬ ПОСЛЕ placeholder  ID ЛИБО NAME ЛИБО ЕЩЁ ШОТА КРЧ, ЧТО БУДЕТ ВЗАИМОДЕЙСТВОВАТЬ С ДЖАНГО-->
+                <p><input type="password" class="form__input" placeholder="Введите пароль"></p>  <!--СЮДА ДОБАВИТЬ ПОСЛЕ placeholder  ID ЛИБО NAME ЛИБО ЕЩЁ ШОТА КРЧ, ЧТО БУДЕТ ВЗАИМОДЕЙСТВОВАТЬ С ДЖАНГО-->
+                <p><a href="#" class="form__forgot">Забыли логин или пароль?</a></p>             <!--СЮДА ДОБАВИТЬ В href="#" ИМЯ ФАЙЛА ДЛЯ ПЕРЕХОДА НА ВОССТАНОВЛЕНИЕ ПАРОЛЯ, ПОСЛЕ class="form__forgot" ДОБАВИТЬ ID ЛИБО NAME ЛИБО ЕЩЁ ШОТА КРЧ, ЧТО БУДЕТ ВЗАИМОДЕЙСТВОВАТЬ С ДЖАНГО-->
+                <p><button class="form__btn">Войти</button></p>                                  <!--СЮДА ДОБАВИТЬ ПОСЛЕ class="form__btn"  ID ЛИБО NAME ЛИБО ЕЩЁ ШОТА КРЧ, ЧТО БУДЕТ ВЗАИМОДЕЙСТВОВАТЬ С ДЖАНГО-->
+            </form>
+        </div>
+    </article>
+</body>
+</html>
